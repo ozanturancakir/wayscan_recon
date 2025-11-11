@@ -1,29 +1,28 @@
 ![Wayscan Banner](images/wayscan_banner.png) 
-Wayscan, hedeflediğiniz bir domainin (alan adı) geçmiş URL'lerini Wayback Machine'den (Internet Archive CDX API) pasif olarak toplayan ve bu URL'leri potansiyel güvenlik zafiyetlerine göre analiz eden bir Python aracıdır.
+Wayscan is a Python tool that passively collects the historical URLs of a target domain from the Wayback Machine (Internet Archive CDX API) and analyzes these URLs for potential security vulnerabilities.
 
-**Yazar:** Ozan Turan Çakır
+**Author:** Ozan Turan Çakır
 
-⚠️ Bu aracı yalnızca izinli testlerde kullan.
+⚠️ Use this tool only for authorized testing.
 
-
-
-## Kullanım
+## Usage
 wayscan_recon.py [-h] [--include-subdomains] [--alive200] [--threads THREADS] [--outdir OUTDIR] [--limit LIMIT] target
 
 
 
-## Gereksinimler
+## Requirements
 - Python 3.8+
 - requests, termcolor, pyfiglet
 
 
-## ⚙️ Kurulum
 
-Wayscan, Python 3.x gerektirir. Gerekli kütüphaneleri yüklemek için:
+
+## ⚙️ Installation
+
+Wayscan requires Python 3.x. To install the necessary libraries:
 
 ```bash
 git clone [https://github.com/ozanturancakir/Wayscan.git](https://github.com/ozanturancakir/Wayscan.git)
 cd Wayscan
 pip3 install -r requirements.txt
-
 
